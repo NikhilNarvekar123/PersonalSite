@@ -19,7 +19,7 @@ export class Section extends React.Component {
             elem = {backgroundColor: this.props.background};
 
         return (
-            <div style = {elem}>
+            <div className = "section" style = {elem}>
                 {this.props.children}
             </div>
         );

@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Section} from './Section.js';
 import {Navbar} from './Navbar.js';
 import profilePic from './profileImg.png';
 
@@ -9,16 +10,25 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
+      <Section background = "#5271ff">
+        <div>
+          <img src = {profilePic}/>
+          <h1>Nikhil Narvekar</h1>
+          <h2>probably coding right now</h2> 
+        </div> 
+        <div>             
+          <p style = {{marginLeft: "50px", marginRight: "50px", textAlign: "left"}}>
+            Hi! I'm a computer science major at The University of Texas at Dallas skilled in web development and software engineering.
+            Whether individually or as a part of a team, I love tackling challenges and innovating solutions to real world issues.
+            I'm also a fast learner and looking for internships for 2021.
+          </p>
+        </div>
+      </Section>
+      
       <header className="App-header">
-        <img src = {profilePic}/>
+
         
-        <h1>Nikhil Narvekar</h1>
-        <h2>probably coding right now</h2>
-        <p style = {{marginLeft: "50px", marginRight: "50px", textAlign: "left"}}>
-          Hi! I'm a computer science major at The University of Texas at Dallas skilled in web development and software engineering.
-          Whether individually or as a part of a team, I love tackling challenges and innovating solutions to real world issues.
-          I'm also a fast learner and looking for internships for 2021.
-        </p>
+
 
         <h2>Skills</h2>
         <ul>

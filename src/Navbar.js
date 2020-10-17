@@ -11,7 +11,7 @@ export class Navbar extends React.Component {
 
     render() {
         return(
-            <div>
+            <div className = "navbar">
                 <a>Home</a>
                 <a>Projects</a>
                 <a>Skills</a>

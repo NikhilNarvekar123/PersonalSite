@@ -6,6 +6,6 @@ a {
     padding-left: 1em;
 }
 
-div {
+div.navbar {
     background-color: #5271ff;
 }
