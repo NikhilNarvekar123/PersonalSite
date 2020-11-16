@@ -1,25 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './logo1.png';
 import './App.css';
 import {Navbar} from './Navbar.js';
-import profilePic from './profileImg.png';
-
+import profilePic from './homepfp.png';
+import Section from './Section.js';
+import background from './bgd2.png';
 
 function App() {
+
+
+
   return (
     <div className="App">
       <Navbar/>
+        
+      <Section image={background} height='400px'>
+        <img src={profilePic} width='200px' height='200px'></img>
+      </Section>
+      <Section color='#2c2c2c'>
+        <h1 class='text-lg'>About</h1>
+        <p></p>
+      </Section>
       <header className="App-header">
-        <img src = {profilePic}/>
-        <h1>Nikhil Narvekar</h1>
-        <h2>Tagline</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.
-        </p>
+      
+      
+        
+    
       </header>
+    
+    
     </div>
   );
+
+
+
+
 }
 
 export default App;
