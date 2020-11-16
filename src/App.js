@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo1.png';
 import './App.css';
+import {Section} from './Section.js';
 import {Navbar} from './Navbar.js';
 import profilePic from './homepfp.png';
 import Section from './Section.js';
