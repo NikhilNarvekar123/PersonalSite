@@ -9,12 +9,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-responsive": "^8.1.0",
-<<<<<<< HEAD
     "react-scripts": "3.4.3",
     "tailwindcss": "^1.9.6"
-=======
-    "react-scripts": "^3.4.3"
->>>>>>> dc6a8176cfac97bc738ea44675e6d4c82f2dfd8e
   },
   "scripts": {
     "build:tailwind": "tailwindcss build src/tailwind.css -o src/tailwind.output.css",
