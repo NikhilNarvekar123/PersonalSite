@@ -29,9 +29,11 @@ class Section extends React.Component{
 
 
         return(
+            <>
             <div style ={divStyle}>
                 {this.props.children}
             </div>
+            </>
         );
     }
 
