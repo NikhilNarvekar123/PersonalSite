@@ -1,41 +1,41 @@
 import React from 'react';
 
-class Section extends React.Component{
 
-    constructor(props){
-        super(props);
+const Section = (props) => {
+
+    let topLine = true;
+    let botLine = true;
+
+    if(props.topEnabled){
+        topLine = false;
+    }
+    if(props.bottomEnabled){
+        botLine = false;
     }
 
 
-    render() {
 
-        let divStyle = {
-            height: this.props.height,
-            width: '100%',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center'
+    return(
+        <>
+
+        {topLine &&
+        <div className='container w-40 mx-auto'>
+            <hr class='dashed'></hr>
+        </div>
+        }
+        
+        <div className='container mx-auto py-10 justify-center'>
+            {props.children}
+        </div>
+
+        {botLine &&
+        <div className='container w-40 mx-auto'>
+            <hr class='dashed'></hr>
+        </div>
         }
 
-        if(this.props.color){    
-            divStyle.backgroundColor = this.props.color;
-        }
-        if(this.props.image) {
-            divStyle.backgroundImage = "url(" + this.props.image + ")";
-        }
-
-
-        return(
-            <>
-            <div style ={divStyle}>
-                {this.props.children}
-            </div>
-            </>
-        );
-    }
+        </>
+    );
 
 
 }
