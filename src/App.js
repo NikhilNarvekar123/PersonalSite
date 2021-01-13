@@ -1,10 +1,8 @@
 import React from 'react';
-import logo from './logo1.png';
 import './App.css';
-import Section from './Section.js';
-import {Navbar} from './Navbar.js';
-import profilePic from './pfp.png';
-import background from './bgd2.png';
+import Section from './components/Section.js';
+import Navbar from './Navbar.js';
+import profilePic from './assets/PersonalPicture.png';
 
 function App() {
 
@@ -16,7 +14,7 @@ function App() {
       
       <Navbar/>
         
-      <Section image={background} height='400px'>
+      <Section height='400px'>
         <div className='content-center'>
           <img src={profilePic} className="shadow rounded-full max-w-full h-auto align-middle border-none" width='200px' height='200px'></img>
           <h1 style={h1Style}>
@@ -66,6 +64,9 @@ function App() {
       
       <Section>
         Contact
+        <div id='education' style={{height:'500px'}}>
+
+        </div>
       </Section>
 
 
