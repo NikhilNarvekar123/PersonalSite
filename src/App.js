@@ -6,8 +6,8 @@ import Skills from './components/Skills.js';
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Education from './components/Education'
-
-
+import More from './components/More'
+import Contact from './components/Contact'
 
 
 function App() {
@@ -43,8 +43,9 @@ function App() {
 
       <Education/>
 
-
-    
+      <More/>
+      
+      <Contact/>
     
     </div>
   );
