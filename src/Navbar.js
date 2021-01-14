@@ -30,7 +30,7 @@ const Navbar = () => {
 
                 <div class='flex flex-row items-center'>
                 <img class='fill-current h-8 w-8 mr-2' width='70' height='70' viewBox="0 0 54 54" src={logo}></img>
-                <a href="#" class="text-lg font-semibold tracking-widest text-gray-900 rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">Nikhil Narvekar</a>
+                <a href="#about" class="text-lg font-semibold tracking-widest text-gray-900 rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">Nikhil Narvekar</a>
                 </div>
 
                 <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" onClick={() => setOpen(!openMobile)}>
