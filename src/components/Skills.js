@@ -8,7 +8,7 @@ const Skills = () => {
 
 
         <div id='skills' className='bg-indigo-900'>
-        <div className='mx-20 lg:mx-64  flex flex-col py-10'>
+        <div className='mx-5 sm:mx-20 xl:mx-64 flex flex-col py-10'>
 
 
             <div className='w-full flex justify-center sm:justify-start text-white text-2xl' style={{fontFamily:'Open Sans'}}>
