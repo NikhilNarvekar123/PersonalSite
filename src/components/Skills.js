@@ -7,7 +7,7 @@ const Skills = () => {
     return(
 
 
-        <div id='skills' className='bg-indigo-900'>
+        <div id='' className='bg-indigo-800'>
         <div className='mx-5 sm:mx-20 xl:mx-64 flex flex-col py-10'>
 
 

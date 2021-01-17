@@ -14,7 +14,7 @@ function App() {
 
   return (
     
-    <div className="App">
+    <div className="App" style={{background:'radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%)'}}>
       
       <Navbar/>
         
@@ -22,29 +22,35 @@ function App() {
       <About/>
 
 
-
+      <div id='skills' className='py-4'/>
       <Skills/>
 
       {/* <div className='text-lg text-white'>
         -----------
       </div> */}
 
+      <div id='experience' className='py-4'/> 
       <Experience/>
       
       {/* <div className='text-lg text-white'>
         -----------
       </div> */}
 
+      <div id='projects' className='py-4'/>
       <Projects/>
 
       {/* <div className='text-lg text-white'>
         -----------
       </div> */}
 
+      <div id='education' className='py-4'/>
       <Education/>
 
+
+      <div id='more' className='py-4'/>
       <More/>
       
+      <div id='contact' className='py-4'/>
       <Contact/>
     
     </div>

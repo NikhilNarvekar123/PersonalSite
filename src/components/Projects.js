@@ -9,7 +9,7 @@ const Projects = () => {
     
     return(
     
-        <div id='projects' className='bg-indigo-700'>
+        <div id='' className='bg-indigo-800'>
         <div className='mx-5 sm:mx-20 xl:mx-64 flex flex-col py-10'>
 
 

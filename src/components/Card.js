@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 
 
+
 const Badge = (props) => {
     return(
-        <a href="#" class="inline-block rounded-full text-white 
+        <a class="inline-block rounded-full text-white 
         bg-blue-400 hover:bg-blue-500 duration-300 
         text-xs font-bold 
         mr-1 md:mr-2 mb-2 px-2 md:px-4 py-1 
