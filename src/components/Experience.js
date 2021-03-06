@@ -17,10 +17,10 @@ const Experience = () => {
             </div>
             <br/>
 
-            <Card location='Virtual' date='June 2021 - August 2021' title="NASA L'SPACE Mission Concept Academy Fellow"
+            {/* <Card location='Virtual' date='June 2021 - August 2021' title="NASA L'SPACE Mission Concept Academy Fellow"
                 description='Selected as part of NASA’s MCA program for national undergraduate students. Creating a design proposal 
                 for a designated space mission and reviewed by graduate students. Receiving mentoring and lectures
-                by NASA engineers.' badges={['Robotics', 'Research', 'Computer Simulations', 'Engineering']}>{nasa}</Card>
+                by NASA engineers.' badges={['Robotics', 'Research', 'Computer Simulations', 'Engineering']}>{nasa}</Card> */}
 
             <Card location='Virtual' date='February 2021 - May 2021' title='RealPage Software Developer Intern' description='Working with Spring & Java to 
                 build financial dashboard application. Using Angular.js to build frontend of application.' 
