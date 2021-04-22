@@ -8,12 +8,15 @@ import Projects from './components/Projects'
 import Education from './components/Education'
 import More from './components/More'
 import Contact from './components/Contact'
+import Sidebar from './Sidebar.js'
 
 
 function App() {
 
   return (
-    
+
+
+
     <div className="App" style={{background:'radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%)'}}>
       
       <Navbar/>
@@ -21,23 +24,27 @@ function App() {
 
       <About/>
 
+      <div id='experience' className='py-4'/> 
+      <Experience/>
 
-      <div id='skills' className='py-4'/>
-      <Skills/>
+
+
+      <div id='projects' className='py-4'/>
+      <Projects/>
+
+
+      {/* <div id='skills' className='py-4'/>
+      <Skills/> */}
 
       {/* <div className='text-lg text-white'>
         -----------
       </div> */}
 
-      <div id='experience' className='py-4'/> 
-      <Experience/>
       
       {/* <div className='text-lg text-white'>
         -----------
       </div> */}
 
-      <div id='projects' className='py-4'/>
-      <Projects/>
 
       {/* <div className='text-lg text-white'>
         -----------
@@ -47,13 +54,14 @@ function App() {
       <Education/>
 
 
-      <div id='more' className='py-4'/>
+      <div id='more' className=''/>
       <More/>
       
-      <div id='contact' className='py-4'/>
+      <div id='contact' className=''/>
       <Contact/>
     
     </div>
+
   );
 
 

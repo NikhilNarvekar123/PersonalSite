@@ -41,7 +41,7 @@ const CardSmall = (props) => {
         
         <div class="flex justify-center text-left">
             
-            <div class="p-3 mt-10 max-w-xs w-xs cursor-default select-none rounded bg-gray-400 dark:bg-gray-900 shadow-lg">
+            <div class="p-3 mt-10 max-w-xs w-xs cursor-default select-none rounded bg-white shadow-lg">
             <div class="font-semibold text-xl mb-2 ml-2 text-gray-900 dark:text-white">{props.name}</div>
             <div class="mt-0 py-2">
                 <a href={props.viewlink} target='blank'

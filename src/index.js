@@ -4,10 +4,12 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './tailwind.output.css';
 import './index.css';
+import Sidebar from './Sidebar.js'
 
 
 ReactDOM.render(
   <React.StrictMode>
+    <Sidebar/>
     <App />
   </React.StrictMode>,
   document.getElementById('root')

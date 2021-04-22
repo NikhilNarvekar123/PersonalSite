@@ -30,7 +30,7 @@ const About = () => {
                     </div>
                     <br/>
 
-                    <div className='flex justify-center space-x-2'>
+                    <div className='visible sm:invisible flex justify-center space-x-2'>
                         <a href='https://www.linkedin.com/in/nikhil-narvekar-28117a15b/' target='blank'><FontAwesomeIcon icon={faLinkedin} size="2x" color='#5271ff'/></a>
                         <a href='https://github.com/NikhilNarvekar123' target='blank'><FontAwesomeIcon icon={faGithub} size="2x" color='#5271ff'/></a>
                         <a href='mailto:nikhil.narvekar.712@gmail.com' target='blank'><FontAwesomeIcon icon={faEnvelopeSquare} size="2x" color='#5271ff'/></a>
