@@ -9,7 +9,6 @@ import Sidebar from './Sidebar.js'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Sidebar/>
     <App />
   </React.StrictMode>,
   document.getElementById('root')

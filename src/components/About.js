@@ -13,13 +13,6 @@ const About = () => {
 
         <div id='about' class='nightBody py-10'>
         
-            <div class='night'>
-                <div class='shooting_star'></div>
-                <div class='shooting_star'></div>
-                <div class='shooting_star'></div>
-                <div class='shooting_star'></div>
-            </div>
-
 
             <div className='flex flex-col md:flex-row justify-center w-full my-6 space-y-10 md:space-x-20'>
 
@@ -40,8 +33,9 @@ const About = () => {
 
                 <div className='sm:ml-16 sm:flex sm:flex-col'>
 
-                    <div className='w-full flex justify-center sm:justify-start text-white text-3xl' style={{fontFamily:'Open Sans'}}>
-                        <span className='font-bold'>👋 Hi! I'm  <span className='underline'>Nikhil</span></span> 
+                    <div className='w-full flex text-left justify-start sm:justify-start text-white text-3xl' style={{fontFamily:'Open Sans'}}>
+                        {/* <div className='block'>👋</div> */}
+                        <span className='font-bold'>Hey, I'm Nikhil <br/> a CS Honors student from UTD</span> 
                     </div>
                     <br/>
                     <div className='text-white text-md font-bold' style={{fontFamily:'Open Sans'}}>

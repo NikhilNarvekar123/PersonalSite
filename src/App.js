@@ -8,8 +8,8 @@ import Projects from './components/Projects'
 import Education from './components/Education'
 import More from './components/More'
 import Contact from './components/Contact'
-import Sidebar from './Sidebar.js'
 
+import Intro from './v2/Intro'
 
 function App() {
 
@@ -20,9 +20,8 @@ function App() {
     <div className="App" style={{background:'radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%)'}}>
       
       <Navbar/>
-        
-
-      <About/>
+      
+      <Intro/>
 
       <div id='experience' className='py-4'/> 
       <Experience/>
