@@ -13,9 +13,11 @@
     "font-awesome": "^4.7.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-particles-js": "^3.5.3",
     "react-responsive": "^8.1.0",
     "react-scripts": "3.4.3",
-    "tailwindcss": "^1.9.6"
+    "tailwindcss": "^1.9.6",
+    "tsparticles": "^1.32.0"
   },
   "scripts": {
     "build:tailwind": "tailwindcss build src/tailwind.css -o src/tailwind.output.css",
