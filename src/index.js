@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './tailwind.output.css';
-import './index.css';
-import Sidebar from './Sidebar.js'
+import './styles/index.css';
 
 
 ReactDOM.render(

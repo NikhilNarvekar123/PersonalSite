@@ -1,63 +1,73 @@
 import React from 'react';
-import nasa from '../assets/nasaLogo.png'
-import realpage from '../assets/realpageLogo.png'
-import wemapsales from '../assets/wemapsalesLogo.png'
-import CardSmall from './CardSmall'
+import Card from './Card'
 
 
 const Projects = () => {
     
     return(
     
-        <div id='' className=''>
-        <div className='mx-5 sm:mx-20 xl:mx-64 flex flex-col py-10'>
+        <div className='hidden md:block'>
+            <div className='mx-5 sm:mx-20 xl:mx-64 flex flex-col py-10'>
+
+                <div className='w-full flex justify-center text-white text-2xl' style={{fontFamily:'Cabin'}}>
+                    <span className='font-bold'>Projects</span> 
+                </div>
+                <br/>
+
+                <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+
+                    <Card
+                        name='Grassroots Gov'
+                        description='Built React-based site from ground-up aimed at making political involvement
+                            more accessible. Created backend to interact with Firebase DB and congressional APIs. 
+                            Styled with Tailwind.css.' 
+                        badges={['React', 'Tailwind', 'Firebase', 'Node']}
+                        viewlink='https://grassrootsgov.org/' 
+                    />
+
+                    <Card 
+                        name='Chess-C'
+                        description='C++ program with 3 modes to play chess. Mode A is a 2-player game, Mode B is 
+                            1-player against a custom-built minimax AI, and Mode C is watching 2 AI players play against themselves.' 
+                        badges={['C++']}
+                        viewlink='https://www.notion.so/Chess-C-3b08798e31db4a6f850d38347cd087e3' 
+                        codelink='https://github.com/NikhilNarvekar123/Chess-C'/>
+
+                    <Card 
+                        name='COVID Contact Tracer' 
+                        description='Website uses GPS data to check if a user has been in contact with a self-reported COVID case. Also has check-in
+                            functionality for locations user has entered. Built with vanilla JS/HTML/CSS, Django, and Firebase.' 
+                        badges={['HTML/CSS', 'JS', 'Django', 'Firebase','Python']}
+                        viewlink='https://safefromcovid.herokuapp.com/' 
+                        codelink='https://github.com/NikhilNarvekar123/COVID-19-Safety-Website'/>
+
+                    <Card
+                        name='Autonomous Robot'
+                        description='FTC competition robot built to perform certain tasks fully 
+                        autonomously or by driver control. Robot code is in Java, TensorFlow + OpenCV are used
+                        for image recognition. PID algorithms and state machines are used for robot movement.' 
+                        badges={['Java', 'OpenCV', 'Android', 'TensorFlow']}
+                        codelink='https://github.com/NikhilNarvekar123/2020-Skystone-Code'/>
+
+                    <Card 
+                        name='2.5D Sidescroller'
+                        description="Developed a sidescroller game for UTD's GameJam competition. Custom-built models using Blender, and
+                        scripted levels with Unity/C#." 
+                        badges={['C#', 'Unity', 'Blender']}
+                        viewlink='https://www.notion.so/Chesthunter-2D-Sidescroller-22374c4507bc418c9bef71169a132e39'
+                        codelink='https://github.com/NikhilNarvekar123/Sidescroller-Unity'
+                    />
+
+                    <Card 
+                        meta={true}
+                        description='more coming soon'
+                    />
 
 
-            <div className='w-full flex justify-center text-white text-2xl' style={{fontFamily:'Open Sans'}}>
-                <span className='font-bold'>Projects</span> 
+                </div>
+
+
             </div>
-            <br/>
-
-
-            <div class='grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3'>
-
-            <CardSmall name='Grassroots Gov' description='Building React website for Grassroots.gov, organization aimed at
-                increasing political involvement. Implemented data-fetching from both APIs and Firebases to display on website. 
-                Also worked on the site’s UI with Tailwind.css.' badges={['React.js', 'Tailwind', 'Firebase', 'Node.js']}
-                viewlink='https://grassrootsgov.org/' codelink=''/>
-
-            <CardSmall name='Neural Network Racer' description='Creating a Python-based neural network that can learn how to 
-                maneuver a car around a racetrack. Simulation is 2D and car feeds data of its location on the racetrack to the 
-                network, which then trains itself to drive without hitting any walls.' badges={['Python', 'Machine Learning', 'Neural Networks']}
-                viewlink='' codelink='https://github.com/NikhilNarvekar123/Neural-Network-Racing'/>
-
-
-            <CardSmall name='Chess-C' description='Created a C++ program/executable which featured three modes. Mode A allows 
-                two players to play a game of chess. Mode B allows a player to play against an AI, which I made using the Minimax 
-                algorithm. Mode C allows a player to watch two AIs play a game of chess.' badges={['C++', 'AI']}
-                viewlink='https://www.notion.so/Chess-C-3b08798e31db4a6f850d38347cd087e3' codelink='https://github.com/NikhilNarvekar123/Chess-C'/>
-
-            <CardSmall name='COVID-19 Web Contact Tracer' description='Website which lets users check whether they have 
-                contacted anyone tested positive for COVID-19 using GPS data. Frontend built using HTML, CSS, and vanilla 
-                JS. Backend is built with Django framework and uses Firebase for user data.' badges={['HTML/CSS', 'JS', 'Django', 'Firebase','Python']}
-                viewlink='https://safefromcovid.herokuapp.com/' codelink='https://github.com/NikhilNarvekar123/COVID-19-Safety-Website'/>
-
-
-            <CardSmall name='Autonomous Driver Robot' description='FTC competition robot built to perform certain tasks fully 
-                autonomously and by driver control. Used CAD to model robot and REV parts to construct it. Used Java and Android 
-                Studio to create robot programs, along with OpenCV for image detection.' badges={['Java', 'OpenCV', 'Android', 'TensorFlow']}
-                viewlink='' codelink='https://github.com/NikhilNarvekar123/2020-Skystone-Code'/>
-
-            <CardSmall name='Sidescroller Adventure' description="A 2.5D game developed for my college's game development competition. 
-                Uses Unity, Maya, and Blender." badges={['Unity', 'Blender']}
-                viewlink='https://www.notion.so/Chesthunter-2D-Sidescroller-22374c4507bc418c9bef71169a132e39' codelink='https://github.com/NikhilNarvekar123/Sidescroller-Unity'/>
-
-
-
-            </div>
-
-
-        </div>
         </div>
         
     );

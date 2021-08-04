@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700;600&display=swap');
+
+#particles canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+h1 {
+  color:'white';
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+}
+
+p {
+    color:'white';
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}

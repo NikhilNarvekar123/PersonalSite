@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './Navbar.css';
 import logo from './assets/LogoImg.png';
-import Toggle from './components/Toggle';
 
 
 const Navbar = () => {
